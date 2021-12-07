@@ -1,0 +1,114 @@
+body {
+
+    background-color: #eee;
+}
+
+/*.form-main {
+
+    max-width: 400px;
+    margin: 0 auto;
+}*/
+#app {
+    display: flex;
+}
+
+#app div {
+    /*Ocupan nuestra toda la pantalla */
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 5px;
+    margin-top: 0px; 
+}
+
+
+/*Eliminamos el margen de la izquierda
+body div:first-child {
+
+    margin-left: 0px;
+
+}
+
+*/
+#meals {
+    margin-left: 0px;
+}
+
+/*Eliminamos el margen de la izquierda
+El elemento chil fuciona si es el ultimo elemento como se ve 
+en esta sección*/
+#orders {
+
+    margin-right: 0px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+#submit {
+    background-color: #2a91bd;
+    color:#eee;
+    padding: 10px 15px;
+    border: solid 0px;
+    border-radius: 25px;
+    margin:15px;
+    margin-left: 38px;
+}
+
+#submit:disabled {
+    /*Cambiar de color cuando dice cargando...*/
+    background-color: #ccc;
+
+}
+
+#meals-list li {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #eee;
+
+}
+
+#app .form-main {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.login-form p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+form input {
+    width: calc(100% - 6px);
+    height: 24px;
+    padding-left: 5px;
+    background-color: #dedede;
+    border: solid 0px;
+    border-radius: 4px;
+    color: #555;
+}   
+
+.btn {
+    border: solid 0px;
+    padding: 10px 15px;
+    background-color: #2280cc;
+    color: #dedede; 
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.block {
+    width: calc(100% - 4px);
+    
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+}
